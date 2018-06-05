@@ -54,3 +54,43 @@ myName="Andy"
 for name in hiltClass:
     if name == myName:
         print(name)
+        print()
+
+states={"MI":"Michigan","IL":"Illinois"}
+for code, state in states.items():
+    print(code+" is the code for" + state)
+    print()
+
+    if fruits[0] == "apple":
+        print("yum")
+    elif fruits[0] == "cardboard" or fruits[0] == "sand":
+        print("yuck")
+    else:
+        print("not bad")
+        print()
+
+    if "apple" not in fruits[0]:
+        print("yuck")
+
+age=5
+if age>0 and age <=2:
+    print("baby")
+elif age>2 and age<18:
+    print("child")
+else:
+    print("adult")
+    print()
+
+counter=0
+
+while counter<5:
+    print(counter)
+    counter+=1
+    print()
+
+alphabet="abcdefghijklmnpoqrstuvwxyz"
+print(alphabet[1])
+print(alphabet[2:20:3])   #[start:stop:step]
+print(alphabet[-2:])
+
+print(letters[:-1])
