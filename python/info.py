@@ -1,5 +1,9 @@
 
-myInfo={"firstName":"andy", "lastName":"near", "hometown":"holland", "favFood":"dal"}
+myInfo={
+    "firstName":"andy",
+    "lastName":"near",
+    "hometown":"holland",
+    "favFood":"dal"}
 myInfo["favoriteInstructor"]="tony"
 myInfo["goodFood"]="spinach"
 print(myInfo["firstName"] + ", " + myInfo["lastName"])
