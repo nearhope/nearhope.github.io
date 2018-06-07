@@ -54,12 +54,13 @@ for link in htmlLinks:
     #print(link)
 headlines=[]
 for item in soup.find_all('h2')[6:17]:
-    headlines=(item.text.replace('\n', ''))
+    headlines.append(item.text.replace('\n', ''))
     # print('=======')
     # print(item.text.replace('\n', ''))
 
 for line in headlines:
-    print(headlines)
+    print(line)
+    print("=======")
 
 #
 # corpusTexts = []
